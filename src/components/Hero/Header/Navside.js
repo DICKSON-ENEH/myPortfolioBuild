@@ -25,7 +25,8 @@ const Navside = ({setToggle, toggle}) => {
         onClick={(()=>{
             setToggle(false)
         })}
-        >Contact</Nav>
+        ><a href ="tel:+2349130308557">
+        Contact</a></Nav>
         </Wrapper>
     </Container>
   )
@@ -76,5 +77,8 @@ font-weight:500;
     transition: all 300ms ;
 transform:scale(1.05)
 }
-
+a{
+    text-decoration:none ;
+    color:#fff
+}
 `

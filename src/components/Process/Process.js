@@ -36,7 +36,10 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 flex-wrap:wrap ;
-width:1000px
+width:1000px;
+@media(max-width:768px){
+    justify-content:center
+}
 
 `
 const Div = styled.div`
