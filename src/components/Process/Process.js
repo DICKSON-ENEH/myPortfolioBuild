@@ -4,6 +4,8 @@ import  Card from "./Card"
 
 const Process = (image, topics , descript) => {
   return (
+      <Div>
+      <Top>How i work</Top>
     <Container>
         <Wrapper>
 
@@ -15,7 +17,9 @@ const Process = (image, topics , descript) => {
         topics ="Implement" descript="After ideate, I move ahead to implementation"
         />
         </Wrapper>
+   
     </Container>
+    </Div>
   )
 }
 
@@ -35,4 +39,16 @@ flex-wrap:wrap ;
 width:1000px
 
 `
-const Top = styled.div``
+const Div = styled.div`
+display:flex;
+justify-content:center;
+flex-direction:column ;
+align-items:center;
+font-family:poppins;
+color:#fff;
+margin-top:20px
+`
+const Top = styled.div`
+font-weight:800 ;
+font-size:3rem
+`

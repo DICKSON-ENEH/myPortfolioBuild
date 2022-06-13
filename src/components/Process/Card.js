@@ -26,14 +26,15 @@ width:200px;
 height:150px;
 background: #1e293b;
 border-radius:5px;
-
+font-family:poppins;
+font-size:12px;
 display:flex;
 margin-bottom:20px;
 color:#fff;
 align-items:center;
 justify-content:center ;
 :hover{
- background:#0fa5e9;
+ 
     cursor:pointer;
     transition:all 300ms ;
     transform:scale(1.05)
