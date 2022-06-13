@@ -41,7 +41,11 @@ display:flex;
 flex-wrap:wrap;
 
 justify-content:space-between;
-width:1200px
+width:1200px;
+@media (max-width:768px){
+    flex-direction:column ;
+    align-items:center
+}
 `
 const Left= styled.div`
 width:300px;
