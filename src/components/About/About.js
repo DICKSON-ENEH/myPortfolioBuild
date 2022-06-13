@@ -1,21 +1,17 @@
 import React, {useEffect} from 'react'
 import styled from "styled-components"
-import Aos from "aos"
 
-import "aos/dist/aos.css"
 
 const About = () => {
-    useEffect(()=>{
-        Aos.init({duration:1500})
-    }, [])
+   
   return (
     <Container>
         <Wrapper>
-            <Left data-aos="fade-right">
+            <Left>
 
                 <img src ="/ppp.png"/>
             </Left>
-            <Right data-aos="fade-left">
+            <Right >
                 <Top>ABOUT ME</Top>
                 <Mid>
                 I'm Dickson Eneh,ui/ux designer and a fullstack software engineer. I am passionate about giving solutions to challenging problems and create delightful experiences.
