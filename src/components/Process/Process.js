@@ -36,7 +36,8 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 flex-wrap:wrap ;
-width:1000px;
+/* width:1000px; */
+/* background:blue ; */
 @media(max-width:768px){
     justify-content:center
 }
@@ -49,7 +50,8 @@ flex-direction:column ;
 align-items:center;
 font-family:poppins;
 color:#fff;
-margin-top:20px
+margin-top:20px;
+
 `
 const Top = styled.div`
 font-weight:800 ;

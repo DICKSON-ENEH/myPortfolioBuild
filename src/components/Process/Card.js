@@ -29,7 +29,7 @@ border-radius:5px;
 font-family:poppins;
 font-size:12px;
 display:flex;
-margin-bottom:20px;
+margin:20px;
 color:#fff;
 align-items:center;
 justify-content:center ;
