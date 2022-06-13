@@ -25,7 +25,7 @@ const Services = () => {
                     </Image>
                     <Head>Mobile Development</Head>
                     <Text>
-                    I use various web technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive website layouts.
+                    I use various mobile technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive mobile devices.
 
 
                     </Text>
@@ -38,7 +38,7 @@ const Services = () => {
                     </Image>
                     <Head>Ui/Ux design</Head>
                     <Text>
-                    I use various web technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive website layouts.
+                    I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.
 
 
                     </Text>
@@ -87,7 +87,6 @@ display:flex;
 align-items:center;
 justify-content:center ;
 :hover{
- background:#0fa5e9;
     cursor:pointer;
     transition:all 300ms ;
     transform:scale(1.05)
@@ -129,7 +128,7 @@ margin-bottom:20px;
 align-items:center;
 justify-content:center ;
 :hover{
- background:#0fa5e9;
+ 
     cursor:pointer;
     transition:all 300ms ;
     transform:scale(1.05)
@@ -150,7 +149,6 @@ margin-bottom:20px;
 
 justify-content:center ;
 :hover{
- background:#0fa5e9;
     cursor:pointer;
     transition:all 300ms ;
     transform:scale(1.05)

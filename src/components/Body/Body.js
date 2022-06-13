@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero"
 import Header from "../Hero/Header/Header"
 import About from '../About/About'
 import Services from '../Services/Services'
+import Process from '../Process/Process'
 
 const Body = () => {
   return (
@@ -16,6 +17,7 @@ width:"100%"
         <Hero/>
         <About/>
         <Services/>
+        <Process/>
     </div>
   )
 }

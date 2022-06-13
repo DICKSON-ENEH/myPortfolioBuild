@@ -22,7 +22,8 @@ const Header = () => {
                 <Navs>Home</Navs>
                 <Navs>About</Navs>
                 <Navs>Portfolio</Navs>
-                <Navs>contact</Navs>
+                <Navs  style={{textDecoration:"none", color:"#fff"}}><a href ="tel:+2349130308557">
+                    Contact</a></Navs>
             </Navigation>
             <Side>
             { 
@@ -83,6 +84,11 @@ width:500px;
 const Navs = styled.div`
 font-weight:400;
 font-size:18px;
+a{
+    text-decoration:none ;
+    color:#fff
+}
+
 cursor:pointer ;
 :hover{
     transition:all 300ms;
