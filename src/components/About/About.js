@@ -52,6 +52,12 @@ width:300px;
 img{
     width:100%
 }
+@media (max-width:340px){
+    width: 280px;;
+    img{
+        width:100%;
+    }
+}
 
 `
 const Right= styled.div`

@@ -1,32 +1,29 @@
 import React, {useEffect} from 'react'
 import styled from "styled-components"
-import Aos from "aos"
-import "aos/dist/aos.css"
+
 
 const Navside = ({setToggle, toggle}) => {
 
-    useEffect(()=>{
-        Aos.init({duration:1500})
-    })
+    
   return (
-    <Container  aos-data="fade-left">
+    <Container >
         <Wrapper>
 
         
         <Nav onClick={(()=>{
-            setToggle(true)
+            setToggle(false)
         })}>Home</Nav>
         <Nav  onClick={(()=>{
-            setToggle(true)
+            setToggle(false)
         })}>About</Nav>
         <Nav
         onClick={(()=>{
-            setToggle(true)
+            setToggle(false)
         })}
         >Portfolio</Nav>
         <Nav
         onClick={(()=>{
-            setToggle(true)
+            setToggle(false)
         })}
         >Contact</Nav>
         </Wrapper>
