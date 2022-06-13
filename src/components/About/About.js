@@ -33,7 +33,8 @@ display:flex ;
 font-family:poppins;
 height:100%;
 width:100%;
-justify-content:center
+justify-content:center;
+
 `
 const Wrapper= styled.div`
 
@@ -42,6 +43,9 @@ flex-wrap:wrap;
 
 justify-content:space-between;
 width:1200px;
+@media (max-width:1200px){
+    width:90%
+}
 @media (max-width:768px){
     flex-direction:column ;
     align-items:center
@@ -53,7 +57,9 @@ img{
     width:100%
 }
 @media (max-width:340px){
-    width: 280px;;
+    width: 280px;
+overflow:hidden ;
+
     img{
         width:100%;
     }
@@ -67,6 +73,7 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 text-align:center;
+
 span{
     font-weight:500;
     font-size:20px;

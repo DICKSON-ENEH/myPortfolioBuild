@@ -75,13 +75,11 @@ const Left = styled.div`
 `
 const Right = styled.div`
 flex:0.7;
-@media (max-width:340px){
-     width:280px;
-     img{
-         width:100%
-     }
- }@media (max-width:380px){
-     width:340px;
+/* overflow:hidden; */
+
+
+ @media (max-width:380px){
+     width:300px;
      img{
          width:100%
      }
@@ -107,7 +105,7 @@ font-size:20px;
      font-size:18px
  }
  @media (max-width:340px){
-     width:280px;
+     width:260px;
      font-size:18px
  }
  `
