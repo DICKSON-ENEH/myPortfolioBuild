@@ -1,8 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from "styled-components"
+import Aos from "aos"
+
+import "aos/dist/aos.css"
 const Services = () => {
+    
+        useEffect(()=>{
+            Aos.init({duration:1500})
+        }, [])
   return (
-    <Container>
+    <Container data-aos="fade-down">
         <Wrapper>
             
             <Card>
