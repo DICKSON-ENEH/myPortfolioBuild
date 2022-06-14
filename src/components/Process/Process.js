@@ -11,7 +11,7 @@ const Process = (image, topics , descript) => {
 
             {/* <Top>How I Work</Top> */}
         <Card image="/images/work.svg" topics = "Discover" descript="i consuct research to identify the problem i want to solve."/>
-        <Card image ="/plan.svg" topics="Define"  descript="I brainstorm possible design solutions to the identified problem."/>
+        <Card image ="/work-plan.svg" topics="Define"  descript="I brainstorm possible design solutions to the identified problem."/>
         <Card image ="/work-sketch.svg" topics = "Ideate" descript= "I create wireframes and sketches of the product I'm about to build"/>
         <Card  image ="/implement.svg"
         topics ="Implement" descript="After ideate, I move ahead to implementation"

@@ -55,10 +55,13 @@ const Container = styled.div`
 color:#fff;
 display:flex;
 justify-content:center;
-align-items:center ;
+/* align-items:center ; */
 height:70px;
 font-family:poppins;
-background:transparent
+background:transparent;
+position:fixed ;
+width:100%;
+background:#0b1120
 `
 const Wrapper = styled.div`
 display:flex;
@@ -84,6 +87,8 @@ width:500px;
 const Navs = styled.div`
 font-weight:400;
 font-size:18px;
+text-decoration:none;
+color:#fff;
 a{
     text-decoration:none ;
     color:#fff
