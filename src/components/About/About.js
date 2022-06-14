@@ -15,10 +15,8 @@ const About = () => {
                 <Top>ABOUT ME</Top>
                 <Mid>
                 I'm Dickson Eneh,ui/ux designer and a fullstack software engineer. I am passionate about giving solutions to challenging problems and create delightful experiences.
-
-I honed my skills at web development,mobile development(frontend and backend respectively). I develop web Applications with HTML, CSS and JavaScript, with proficiency in React js node js, express js, mongodb, React Native etc.
-some of my technologies include  <span>Mongo db, React js, React Native, Node js, Express js, Microsoft Azure devops, Firebase, socket io, Next js, Redux, React Query etc</span>
-Being a diligent, hardworking and result oriented Individual, I always work towards achieving best result on each project I lay my hands on.
+ I develop web Applications with HTML, CSS and JavaScript, with proficiency in React js node js, express js, mongodb, React Native etc.
+some of my technologies include  <span>Mongo db, React js, React Native, Node js, Express js, Microsoft Azure devops, Firebase, socket io, Next js, Redux, React Query etc</span> I always work towards achieving best result on each project I lay my hands on.
                 </Mid>
             </Right>
         </Wrapper>
