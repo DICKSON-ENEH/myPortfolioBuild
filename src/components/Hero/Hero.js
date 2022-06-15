@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components"
 import { Typewriter } from 'react-simple-typewriter'
+import { animateScroll as Scroll, Link } from "react-scroll";
+
 
 const Hero = () => {
   return (
@@ -32,7 +34,7 @@ const Hero = () => {
 </Base>
      
 
-<Button>Portfolio</Button>
+<Link to="portfolio" duration={1000} smooth={true} offset={-110}><Button>Portfolio</Button></Link>
             </Left>
             <Right>
                 <img src = "/images/dev.svg"/>

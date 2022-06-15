@@ -22,7 +22,7 @@ const Header = () => {
             <Navigation>
                 <Navs to="home" duration={1000} smooth={true} offset={-120}>Home</Navs>
                 <Navs to ="about" duration={1000} smooth={true} offset={-110}>About</Navs>
-                <Navs>Portfolio</Navs>
+                <Navs to ="portfolio" duration={1000} smooth={true} offset={-110}>Portfolio</Navs>
                 <Navs  style={{textDecoration:"none", color:"#fff"}}><a href ="tel:+2349130308557">
                     Contact</a></Navs>
             </Navigation>

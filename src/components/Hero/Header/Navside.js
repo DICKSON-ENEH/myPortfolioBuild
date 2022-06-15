@@ -22,6 +22,7 @@ const Navside = ({setToggle, toggle}) => {
         onClick={(()=>{
             setToggle(false)
         })}
+        to ="portfolio" duration={1000} smooth={true} offset={-110}
         >Portfolio</Nav>
         <Nav
         onClick={(()=>{
