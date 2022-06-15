@@ -5,6 +5,7 @@ import About from '../About/About'
 import Services from '../Services/Services'
 import Process from '../Process/Process'
 import Portfolio from '../Portfolio/Portfolio'
+import Contact from '../Contact/Contact'
 
 const Body = () => {
   return (
@@ -20,6 +21,7 @@ width:"100%"
         <Services/>
         <Process/>
         <Portfolio/>
+        <Contact/>
     </div>
   )
 }

@@ -113,7 +113,7 @@ margin:20px;
 }
 
 @media(max-width:470px){
-    width:280px;
+    width:300px;
     overflow:hidden;    
 }
 
