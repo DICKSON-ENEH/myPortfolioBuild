@@ -55,6 +55,7 @@ z-index:100;
     width:200px;
     height:200px ;
     position:fixed;
+
 z-index:  100;
 
     right:0;
@@ -63,6 +64,9 @@ transition:all 400ms
 
     
 
+}
+@media(max-width:320px){
+    right:40px
 }
 `
 const Wrapper= styled.div`

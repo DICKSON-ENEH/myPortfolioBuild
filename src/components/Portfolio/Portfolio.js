@@ -60,28 +60,44 @@ align-items:center;
 font-family:poppins;
 color:#fff;
 margin-top:20px;
-height:100%
+height:100%;
+width:100% ;
+
 `
 const Top = styled.div`
 font-family:poppins;
 font-size:2rem;
 font-weight:bold ;
+@media(max-width:768px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    text-align:center;
+}
 `
 const Container = styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
-padding:30px
+/* padding:30px; */
+
+width:100% ;
+
 `
 const Wrapper = styled.div`
 display:flex;
 justify-content:space-between;
 align-items:center;
 flex-wrap:wrap ;
+
 /* width:1000px; */
-/* background:blue ; */
+
+overflow:hidden;
+
 @media(max-width:768px){
-    justify-content:center
+    justify-content:center;
+    overflow:hidden;
 }
 `
 const Card = styled.div`
@@ -90,11 +106,16 @@ background: #1e293b;
 width:450px;
 height:100%;
 margin:20px;
-@media (max-width:768px){
-    width:300px;
+@media (min-width:500px)and (max-width:768px){
+    width:320px;
+    overflow:hidden;
+
 }
 
-
+@media(max-width:470px){
+    width:280px;
+    overflow:hidden;    
+}
 
 `
 const Cardwrap = styled.div`
@@ -103,13 +124,21 @@ padding:10px
 const Image = styled.img`
 width:450px;
 border-top:5px ;
-@media (max-width:768px){
+@media (min-width:500px)and (max-width:768px){
     width:300px;
+    overflow:hidden;
+
+    
+    
+};
+@media(max-width:470px){
+    width:280px;
 }
 `
 const Topic = styled.div`
 opacity:0.8;
 font-weight:500;
-font-size:1.5rem
+font-size:1.5rem;
+
 `
 const Description = styled.div``

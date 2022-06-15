@@ -29,7 +29,10 @@ const Container = styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
-padding:30px
+padding:30px;
+
+
+
 `
 const Wrapper = styled.div`
 display:flex;
@@ -37,9 +40,9 @@ justify-content:space-between;
 align-items:center;
 flex-wrap:wrap ;
 /* width:1000px; */
-/* background:blue ; */
 @media(max-width:768px){
-    justify-content:center
+    justify-content:center;
+    overflow:hidden;
 }
 
 `
@@ -51,6 +54,7 @@ align-items:center;
 font-family:poppins;
 color:#fff;
 margin-top:20px;
+width:100% ;
 
 `
 const Top = styled.div`
