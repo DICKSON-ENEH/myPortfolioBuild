@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react'
 import styled from "styled-components"
 
+import { animateScroll as Scroll, Link } from "react-scroll";
+
 
 const Navside = ({setToggle, toggle}) => {
 
@@ -12,10 +14,10 @@ const Navside = ({setToggle, toggle}) => {
         
         <Nav onClick={(()=>{
             setToggle(false)
-        })}>Home</Nav>
+        })}  to ="home" duration={1000} smooth ={true} offset={-120}>Home</Nav>
         <Nav  onClick={(()=>{
             setToggle(false)
-        })}>About</Nav>
+        })}  to ="about" duration={1000} smooth={true} offset={-110}>About</Nav>
         <Nav
         onClick={(()=>{
             setToggle(false)
@@ -43,6 +45,7 @@ font-family:poppins;
 border-radius:3px;
 background:#0fa5e9;
 transition:all 400ms;
+z-index:100;
 @media(max-width:768px){
     display:flex;
     flex-direction:column;
@@ -50,8 +53,11 @@ transition:all 400ms;
     align-items:center;
     width:200px;
     height:200px ;
-    position:absolute ;
+    position:fixed;
+z-index:  100;
+
     right:0;
+    top:70px;
 transition:all 400ms
 
     
@@ -70,7 +76,7 @@ const Wrapper= styled.div`
  }
  
 `
-const Nav = styled.div`
+const Nav = styled(Link)`
 cursor:pointer;
 font-weight:500;
 :hover{

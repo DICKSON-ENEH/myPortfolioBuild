@@ -5,7 +5,7 @@ import styled from "styled-components"
 const About = () => {
    
   return (
-    <Container>
+    <Container id ="about">
         <Wrapper>
             <Left>
 

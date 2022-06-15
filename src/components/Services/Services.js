@@ -9,7 +9,7 @@ const Services = () => {
             Aos.init({duration:1500})
         }, [])
   return (
-    <Container data-aos="fade-down">
+    <Container data-aos="fade-up">
         <Wrapper>
             
             <Card>

@@ -11,7 +11,7 @@ const Body = () => {
 width:"100%"
 }}
     
-    >
+    id ="home">
     <Header/>
         
         <Hero/>

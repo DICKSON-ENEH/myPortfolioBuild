@@ -3,7 +3,8 @@ import styled from "styled-components"
 import Navside from "./Navside"
 import {BiMenuAltRight} from "react-icons/bi"
 import {MdOutlineCancel} from "react-icons/md"
-
+import { animateScroll as Scroll, Link } from "react-scroll";
+// import {Link} from "react-router-dom"
 const Header = () => {
     const [toggle , setToggle] = useState(false)
 
@@ -14,13 +15,13 @@ const Header = () => {
       <>
     <Container>
         <Wrapper>
-            <Logo>
+            <Logo to ="home"  duration={1000} smooth ={true} offset={-110}>
 
                 <img src ="/web.svg"/>
             </Logo>
             <Navigation>
-                <Navs>Home</Navs>
-                <Navs>About</Navs>
+                <Navs to="home" duration={1000} smooth={true} offset={-120}>Home</Navs>
+                <Navs to ="about" duration={1000} smooth={true} offset={-110}>About</Navs>
                 <Navs>Portfolio</Navs>
                 <Navs  style={{textDecoration:"none", color:"#fff"}}><a href ="tel:+2349130308557">
                     Contact</a></Navs>
@@ -60,6 +61,9 @@ height:70px;
 font-family:poppins;
 background:transparent;
 position:fixed ;
+z-index:100 ;
+
+    
 width:100%;
 background:#0b1120
 `
@@ -70,10 +74,15 @@ align-items:center;
 flex-wrap:wrap;
 width:90%
 `
-const Logo = styled.div`
+const Logo = styled(Link)`
 width:70px;
+cursor:pointer ;
 img{
     width:100%
+}
+:hover{
+    transition: all 300ms ;
+    transform:scale(1.05)
 }
 `
 const Navigation = styled.div`
@@ -84,7 +93,7 @@ width:500px;
     display:none
 }
 `
-const Navs = styled.div`
+const Navs = styled(Link)`
 font-weight:400;
 font-size:18px;
 text-decoration:none;
@@ -104,6 +113,7 @@ const Side = styled.div`
 color:#fff;
 display:none;
 cursor:pointer ;
+font-size:35px;
 @media(max-width:768px){
     display:block
 }
